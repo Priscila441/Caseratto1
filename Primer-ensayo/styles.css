@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pregunta {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.informacion-adicional {
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+
+.pregunta-texto {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+#respuesta {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 10px;
+}
+.navegacion {
+    text-align: center;
+    padding: 20px;
+}
+
+.navegacion button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.navegacion button:hover {
+    background-color: darkorange;
+}
+
+
+#calificacion-container {
+    display: flex;
+    justify-content: center;
+}
+
+.estrella {
+    font-size: 36px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.estrella:hover,
+.estrella.clicked {
+    color: orange;
+}
+.mensaje-final {
+    text-align: center;
+    padding: 20px;
+}
+
+.mensaje-final p {
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.mensaje-final a {
+    color: orange;
+    text-decoration: underline;
+}

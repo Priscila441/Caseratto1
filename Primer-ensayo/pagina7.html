@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>6/6</title>
+</head>
+<body>
+    <section class="pregunta">
+        <p class="pregunta-texto"><strong> Recibe tu beneficio por <br> WhatsApp</strong></p>
+    </section>
+
+    <section class="formulario">
+        <p class="formulario-texto"><strong>Nombre y Apellido</strong></p>
+        <input type="text" id="nombreApellido" placeholder="Escribe tu nombre y apellido..." />
+
+        <p class="formulario-texto"><strong>Número de teléfono</strong></p>
+        <div class="codigoArea">
+            <select id="codigoArea">
+                <option value="+54">AR (+54)</option>
+                <!-- Puedes agregar más opciones según tus necesidades -->
+            </select>
+            <input type="text" id="numeroTelefono" placeholder="Número de teléfono..." />
+        </div>
+    </section>
+
+    <footer>
+        <section class="pregunta">
+            <button onclick="navegarSiguientePagina8()">Enviar ✔✔</button>
+        </section>
+        <div class="mensaje-final">
+            <em>¡A un paso de recibir tu beneficio!</em>
+            <p >Al enviar tu respuesta, estás aceptando nuestros términos y condiciones. Puedes leerlos haciendo click <a href="enlace_a_terminos_y_condiciones.html" target="_blank">aquí</a>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
